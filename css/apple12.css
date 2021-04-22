@@ -1,0 +1,1107 @@
+.product_info{
+ width: 100%;
+}
+.product{
+ width: 1210px;
+ background-color: aliceblue;
+}
+.preview{
+ width: 452px;
+ float: left;
+ position: relative;
+}
+.preview_img{
+ width: 452px;
+ height: 452px;
+ margin-bottom: 15px;
+ border:1px solid #ccc;
+ position: relative;
+}
+.preview_img img{
+ width: 452px;
+ height: 452px;
+}
+.preview_img a{
+ display: inline-block;
+ width: 452px;
+ height: 452px;
+}
+.preview_img .preview_btn{
+ width:452px;
+ height: 50px;
+ position: absolute;
+ bottom: 62px;
+ left: 0;
+ text-align: center;
+}
+.preview_img .preview_btn .video_btn{
+ display: inline-block;
+ width: 50px;
+ height: 50px;
+ background:url(../apple12_img/tubiao.png) 0 -55px no-repeat;
+ cursor: pointer;
+ border-radius: 50%;
+}
+.preview_img .v_video{
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  display: none;
+}
+.preview_img .v_video .video_1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 450px;
+}
+.preview_img .v_video .close_video{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 12px;
+  height: 12px;
+  background: url(../apple12_img/tubiao2.png) -58px -40px no-repeat;
+}
+.preview_img i{
+ display: inline-block;
+ width: 30px;
+ height: 30px;
+ background: url(../apple12_img/tubiao2.png) 0 -24px no-repeat;
+ position: absolute;
+ bottom: -1px;
+ right: -1px;
+}
+.preview_img .mask{
+ width: 303px;
+ height: 303px;
+ background-color: rgba(193, 214, 99, 0.5);
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: none;
+ cursor: all-scroll;
+}
+.preview .preview_img_big{
+ width: 540px;
+ height: 540px;
+ border: 1px solid #ccc;
+ position: absolute;
+ top: 0;
+ left: 452px;
+ overflow: hidden;
+ display: none;
+ z-index: 99;
+}
+.preview .preview_img_big img{
+ width: 805px;
+ height: 805px;
+}
+.preview_list{
+ width: 452px;
+ height: 63px;
+ margin-bottom: 18px;
+ position: relative;
+}
+.preview_list .spec_forward{
+  display:block;
+  width: 22px;
+  height: 32px;
+  background: url(../apple12_img/tubiao2.png) 0 -54px no-repeat;
+  position: absolute;
+  top:50%;
+  margin-top: -16px;
+  left: 0;
+  cursor: pointer;
+}
+.preview_list .spec_backward{
+  display:block;
+  width: 22px;
+  height: 32px;
+  background: url(../apple12_img/tubiao2.png) -78px 0 no-repeat;
+  position: absolute;
+  right: 0;
+  top:50%;
+  margin-top: -16px;
+  cursor: pointer;
+}
+.preview_list .spec_list{
+ width: 380px;
+ height: 63px;
+ margin: 0 auto;
+ overflow: hidden;
+}
+.preview_list .spec_list ul{
+ width: 532px;
+ height: 63px;
+ transition:margin-left 0.3s linear;
+}
+.preview_list .spec_list ul li{
+ width: 58px;
+ height: 58px;
+ float: left;
+ margin: 0 9px;
+ margin-top: 3px;
+}
+.preview_list .spec_list ul li img{
+ width: 58px;
+ height: 58px;
+}
+.preview_list .spec_list ul li.select{
+ outline: 3px solid red;
+ box-sizing: border-box;
+}
+.preview_info{
+ width: 452px;
+ height: 20px;
+}
+.preview_info .left_btns{
+ height: 20px;
+ float: left;
+}
+.preview_info .left_btns a{
+ display: inline-block;
+ color: #666;
+ margin-right: 2px;
+ cursor: pointer;
+}
+.preview_info a:hover{
+ color: #e4393c;
+}
+.preview_info .left_btns a i{
+ margin-right:5px;
+ vertical-align: middle;
+}
+.preview_info .left_btns a .sprite_follow_sku{
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  background: url(../apple12_img/tubiao2.png) -44px -40px no-repeat;
+}
+.preview_info .left_btns a .sprite_share{
+ width: 14px;
+ height: 15px;
+ display: inline-block;
+ background: url(../apple12_img/tubiao2.png) -46px -24px;
+}
+.preview_info .left_btns a .sprite_compare{
+ width: 15px;
+ height: 16px;
+ display: inline-block;
+ background: url(../apple12_img/tubiao2.png) -30px -24px;
+}
+.preview_info .right_btns{
+ height: 20px;
+ float: right;
+}
+.purchase_op{
+ width: 452px;
+ margin-top: 30px;
+ text-align: center;
+}
+.purchase_op a{
+ display: inline-block;
+ line-height: 26px;
+ padding: 0 16px;
+ border: 1px solid #ccc;
+}
+.purchase_op a:hover{
+ border:1px solid #e4393c ;
+}
+.itemInfo{
+ width: 738px;
+ float: right;
+}
+.itemInfo .sku_name{
+   line-height: 28px;
+   margin: 10px 0 5px 0;
+   color: #666;
+   font-size: 16px;
+   font-weight: 700;
+}
+.itemInfo .sku_name img{
+ vertical-align: -2px;
+}
+.itemInfo .news{
+ width: 738px;
+ color: #e4393c;
+ margin-bottom: 5px;
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+}
+.itemInfo .news a{
+ color: #5e69ad;
+ text-decoration: underline;
+}
+.itemInfo .summary_first{
+ margin: 10px 0 5px 0;
+ position: relative;
+ background-color: #f3f3f3;
+}
+.summary_first .summary_price{
+ margin-bottom: 5px;
+ position: relative;
+}
+.summary_first .summary_price .dt{
+ line-height: 22px;
+ margin-left: 10px;
+ float: left;
+ color: #999;
+ font-style:simsun;
+}
+.summary_first .summary_price .p_price{
+ margin-right: 10px;
+ overflow: hidden;
+ color: #e4393c;
+ font-family:"microsoft yahei";
+ float: left;
+ margin-left: 20px;
+}
+.summary_first .summary_price .p_price span{
+ font-size: 16px;
+}
+.summary_first .summary_price .p_price .price{
+ font-size: 22px;
+}
+.summary_first .summary_price .notice_of_lowering_price{
+  float: left;
+  color: #005aa0;
+  margin-top: 2px;
+}
+.summary_first .summary_price .notice_of_lowering_price:hover{
+ color: #e4393c;
+}
+.summary_first .summary_info{
+ position: absolute;
+ right: 10px;
+ top: 8px;
+ width: 69px;
+ height: 34px;
+ text-align: center;
+ border-left: solid 1px #e6e6e6;
+}
+.summary_first .summary_info .comment{
+ color: #666;
+}
+.summary_first .summary_info .count{
+ color: #005ea7;
+ font-size: 14px;
+}
+.summary_first .summary_info .count:hover{
+ color: #e4393c;
+}
+.summary_first .summary_top{
+ margin-bottom: 5px;
+ background: url(../apple12_img/beijing1.png)  0 -12px repeat-x #efefef;
+}
+.summary_first .summary_top .promotion{
+ line-height: 30px;
+ margin-left: 10px;
+ float: left;
+ color: #999;
+ font-family:simsun;
+}
+.summary_first .summary_top .redemption{
+ line-height: 30px;
+ float: left;
+ margin-left: 30px;
+}
+.summary_first .summary_top .redemption .hl_red_bg{
+ display: inline-block;
+ color: #df3033;
+ border: 1px solid #df3033;
+ padding: 2px 3px;
+ margin-right: 5px;
+ line-height: 16px;
+}
+.summary_first .summary_top .redemption .hl_red{
+ color: #666;
+ line-height: 18px;
+}
+.summary_first .summary_top .redemption a{
+ color: #666;
+ line-height: 18px;
+ margin-left: 5px;
+}
+.summary_first .summary_top .redemption a:hover{
+  color: #df3033;
+}
+.summary_choose{ 
+ position: relative;
+ margin-bottom: 5px;
+}
+.summary_choose .summary_support{
+ margin-bottom: 3px;
+ line-height: 32px;
+}
+.summary_choose .summary_support .new_added_business{
+ float: left;
+ margin-left: 10px;
+ color: #999;
+ font-family: simsun;
+}
+.summary_choose .summary_support .arrival{
+ float: left;
+ margin-left: 12px;
+}
+.summary_choose .summary_support .arrival a{
+ display: inline-block;
+ color: #666;
+}
+.summary_choose .summary_support .arrival a i{
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ background: url(../apple12_img/tubiao3.png) 0 -32px no-repeat;
+ vertical-align: -4px;
+}
+.summary_choose .summary_support .arrival a span{
+ display: inline-block;
+ line-height: 16px;
+ padding: 0 5px 0 18px;
+ color: #5e69ad;
+ margin-left:-18px ;
+ border: 1px solid #ced2e6;
+ border-radius: 8px;
+}
+.summary_choose .summary_stock{
+ line-height: 24px;
+}
+.summary_choose .summary_stock .delivery{
+ margin: 5px 0 0 10px;
+ color: #999;
+ float: left;
+ font-family: simsun;
+}
+.summary_choose .summary_stock .site{
+ margin-left: 12px;
+ margin-bottom: 5px;
+ float: left;
+
+}
+.summary_choose .summary_stock .site .area{
+ border: 1px solid #CECBCE;
+ line-height: 26px;
+ margin-right: 6px;
+ padding: 0 24px 0 4px;
+ position: relative;
+}
+.summary_choose .summary_stock .site .area b{
+ display: inline-block;
+ width: 17px;
+ height: 17px;
+ background: url(../apple12_img/tubiao4.png) 3px 5px no-repeat;
+ position: absolute;
+ top: 5px;
+ right: 4px;
+}
+.summary_choose .summary_stock .store_prompt{
+ height: 24px;
+ margin-right: 10px;
+ color: #999;
+ float: left;
+}
+.summary_choose .summary_stock .store_prompt strong{
+ font-size: 12px;
+ margin-right: 5px;
+}
+.summary_choose .summary_stock .distribution_to{
+ float: left;
+ height: 24px;
+ position: relative;
+}
+.summary_choose .summary_stock .distribution_to .support{
+ float: left;
+}
+
+.summary_choose .summary_stock .distribution_to .services{
+ overflow: hidden;
+ float: left;
+ padding:0 10px;
+ line-height: 20px;
+}
+.summary_choose .summary_stock .distribution_to .services span{
+ color: #646fb0;
+ word-break: keep-all;
+}
+.summary_choose .summary_stock .distribution_to .services i{
+ padding: 0 8px;
+ color: #eaeaea;
+}
+.summary_choose .summary_stock .distribution_to .services a{
+ color: #646fb0;
+ word-break: keep-all;
+}
+.summary_choose .summary_stock .distribution_to .services a:hover{
+ color: #df3033;
+}
+.summary_choose .accuracy{
+ line-height: 32px;
+ margin: 0 0 3px 70px;
+ position: relative;
+}
+.summary_choose .accuracy .icon_wl{
+ display: inline-block;
+ width: 86px;
+ height: 16px;
+ background: url(../apple12_img/jingdongwuliu.png)0 0 no-repeat;
+ background-size: 100%;
+ vertical-align: middle;
+}
+.summary_choose .accuracy .ns_services{
+ display: inline-block;
+ padding: 0 10px;
+ line-height: 22px;
+ position: absolute;
+ top: 3px;
+}
+.summary_choose .accuracy .ns_services ul{
+ height: 20px;
+ width: 217px;
+ overflow: hidden;
+ position: relative;
+ padding: 5px 10px;
+ background-color: #fff;
+}
+.summary_choose .accuracy .ns_services ul li a{
+  color: #646fb0;
+  word-break: keep-all;
+}
+.summary_choose .accuracy .ns_services ul li i{
+  color: #eaeaea;
+  padding: 0 8px;
+}
+.summary_choose .accuracy .ns_services ul .arrow{
+ display: inline-block;
+ position: absolute;
+ top: 13px;
+ right: 8px;
+ width: 13px;
+ height: 7px;
+ background: url(../apple12_img/xiangxia.png) no-repeat;
+ font-size: 12px;
+}
+.summary_choose .predict{
+ line-height: 32px;
+ margin-left: 70px;
+ clear: both;
+}
+.summary_choose .predict .h1_red{
+ color: #e4393c;
+}
+.summary_choose .summary_weight{
+ line-height: 32px;
+ margin-bottom: 3px;
+}
+.summary_choose .summary_weight .dt{
+ float: left;
+ margin-left: 10px;
+ color: #999;
+}
+.summary_choose .summary_weight .dd{
+ float: left;
+ margin-left: 30px;
+}
+.summary_choose .choose_attrs{
+ padding-top: 15px;
+ border-top:1px dotted #dfdfdf;
+}
+.summary_choose .choose_attrs .choose_attr_1{
+   margin-bottom: 3px;
+   line-height: 40px;
+} 
+.summary_choose .choose_attrs .dt{
+ float: left;
+ color: #999;
+ margin-left: 10px;
+}
+.summary_choose .choose_attrs .dd{
+  margin-left: 12px;
+  float: left;
+}
+.summary_choose .choose_attrs .choose_attr_1 a{
+  float: left;
+  margin: 0 7px 4px 0;
+  border: 1px solid #ccc;
+  white-space: nowrap;
+}
+.summary_choose .choose_attrs .choose_attr_1 a:hover{
+ border: 1px solid #df3033;
+}
+.summary_choose .choose_attrs .choose_attr_1 a img{
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+.summary_choose .choose_attrs .choose_attr_1 a i{
+  padding: 0 8px;
+}
+.summary_choose .choose_attrs .choose_attr_2{
+ margin-bottom: 3px;
+ line-height: 32px;
+}
+.summary_choose .choose_attrs .choose_attr_2 .dd a{
+   display: inline-block;
+   padding: 0 13px;
+   margin:0 7px 4px 0;
+   border: 1px solid #ccc;
+}
+.summary_choose .choose_attrs .choose_attr_2 .dd a:hover{
+ border: 1px solid #df3033;
+}
+.summary_choose .choose_attrs .choose_attr_3{
+ line-height: 32px;
+ margin-bottom: 3px;
+}
+.summary_choose .choose_attrs .choose_attr_3 .dd a{
+ display: inline-block;
+ margin:  0 7px 4px 0;
+ padding: 0 13px;
+ border: 1px solid #ccc;
+ white-space: nowrap;
+}
+.summary_choose .choose_attrs .choose_attr_3 .dd a:hover{
+ border: 1px solid #df3033;
+}
+.summary_choose .choose_suits{
+  line-height: 32px;
+  margin-bottom: 3px;
+}
+.summary_choose .choose_suits .dt{
+ margin-left: 10px;
+ float: left;
+ color: #999;
+}
+.summary_choose .choose_suits .dd{
+ margin-left: 32px;
+ float: left;
+}
+.summary_choose .choose_suits .dd a{
+ display: inline-block;
+ margin: 0 7px 4px 0;
+ padding: 0 13px;
+ border: 1px solid #ccc;
+ white-space: nowrap;
+}
+.summary_choose .choose_suits .dd a:hover{
+ border: 1px solid #df3033;
+}
+.summary_choose .choose_service{
+ line-height: 18px;
+ margin-bottom: 7px;
+}
+.summary_choose .choose_service .dt{
+ margin-left: 10px;
+ float: left;
+ color: #999;
+ line-height: 30px;
+}
+.summary_choose .choose_service .dd{
+ margin-left: 12px;
+ float: left;
+}
+.summary_choose .choose_service .dd .yb_item_cat{
+ float: left;
+ position: relative;
+ cursor: pointer;
+}
+.summary_choose .choose_service .dd .yb_item_cat:hover .more_item{
+ display: block;
+}
+.summary_choose .choose_service .dd .yb_item_cat:hover .arrow_icon{
+ transform: rotate(180deg);
+}
+.summary_choose .choose_service .dd .yb_item_cat .yb_item{
+ padding: 4px 5px 4px 6px;
+ margin: 0 7px 2px 0;
+ border: 1px solid #ccc;
+ line-height: 20px;
+ cursor: pointer;
+ position: relative;
+}
+.summary_choose .choose_service .dd .yb_item_cat .yb_item img{
+ width: 16px;
+ height: 16px;
+ margin-right: 4px;
+ display: inline-block;
+ vertical-align: middle;
+}
+.summary_choose .choose_service .dd .yb_item_cat .yb_item .name{
+  margin-right: 4px;
+  vertical-align: middle;
+  height: 20px;
+  overflow: hidden;
+  display: inline-block;
+}
+.summary_choose .choose_service .dd .yb_item_cat .yb_item .price{
+ margin-right: 5px;
+ vertical-align: middle;
+ font:12px/150% Arial,Verdana,"宋体";
+}
+.summary_choose .choose_service .dd .yb_item_cat .yb_item .arrow_icon{
+ display: inline-block;
+ width: 15px;
+ height: 10px;
+ vertical-align: middle;
+ background: url(../apple12_img/tubiao5.png) -2px -1px no-repeat;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item{
+   position: absolute;
+   top: 29px;
+   left: 0;
+   border: 1px solid #ddd;
+   padding: 10px 0 5px 10px;
+   width: 240px;
+   overflow: hidden;
+   background-color: #fff;
+   display: none;
+   z-index: 99;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul{
+ line-height: 42px;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul li{
+ margin-bottom: 10px;
+ line-height: 16px;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul li .sprite_checkbox{
+ display: inline-block;
+ width: 14px;
+ height: 14px;
+ margin-right: 6px;
+ border: 1px solid #ccc;
+ color: rgb(105, 221, 37);
+ font-weight: bolder;
+ vertical-align: -3px;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul li .name{
+ display: inline-block;
+ height: 16px;
+ vertical-align: -3px;
+ overflow: hidden;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul li .price{
+ margin-left: 6px;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul li .detail_more{
+  color: #5e69ad;
+  margin-left: 2px;
+  opacity: 0;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul li:hover .detail_more{
+ opacity: 1;
+}
+.summary_choose .choose_service .dd .yb_item_cat .more_item ul li:hover{
+ color: #df3033;
+}
+.summary_choose .choose_service .dd .yb_item_cat:nth-of-type(2) .more_item ul li:nth-of-type(2) .tips{
+ display: inline-block;
+ padding: 0 4px;
+ margin-right: 6px;
+ background-color: #f19c9d;
+ color: #fff;
+}
+.summary_choose .choose_service .dd .service_tips{
+  float: left;
+  position: relative;
+  padding: 5px 0;
+}
+.summary_choose .choose_service .dd .service_tips .sprite_question{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: -10px;
+  background: url(../apple12_img/tubiao6.png) 0 0 no-repeat;
+}
+.summary_choose .choose_service .dd .service_tips .tips{
+  position: absolute;
+  top: 35px;
+  left: -215px;
+  display: none;
+  z-index: 99;
+}
+.summary_choose .choose_service .dd .service_tips .tips .sprite_arrow{
+ display: inline-block;
+    width: 11px;
+    height: 6px;
+    background: url(../apple12_img/tubiao6.png) -14px -16px no-repeat;
+    position: absolute;
+    left:218px;
+    top: -5px;
+} 
+.summary_choose .choose_service .dd .service_tips .tips .content{
+ padding: 10px;
+ width: 248px;
+ background-color: #fff;
+ border: 1px solid #cecbce;
+ box-shadow: 0 0 2px 2px #eee;
+}
+.summary_choose .choose_service .dd .service_tips .tips .content dd{
+ line-height: 170%;
+}
+.summary_choose .choose_service .dd .service_tips .tips .content p{
+ border-top: 1px dotted #999;
+ margin-top: 7px;
+ padding-top: 7px;
+}
+.summary_choose>.choose_service>.dd>.service_tips>.tips>.content>p>a{
+ color: #5e69ad;
+ margin: 0 5px;
+}
+.summary_choose .choose_service .dd .service_tips:hover .tips{
+ display: block;
+}
+.summary_choose .choose_service_1{
+ line-height: 18px;
+ margin-bottom: 7px;
+}
+.summary_choose .choose_service_1 .dt{
+ float: left;
+ padding-left: 10px;
+ color: #999;
+ line-height: 30px;
+}
+.summary_choose .choose_service_1 .dd{
+ float: left;
+ margin-left: 12px;
+}
+.summary_choose .choose_service_1 .dd .service{
+ float: left;
+ position: relative;
+ cursor: pointer;
+}
+.summary_choose .choose_service_1 .dd .service .service_head{
+  padding: 4px 5px 4px 6px;
+  margin: 0 7px 2px 0;
+  border: 1px solid #ccc;
+  line-height: 20px;
+  cursor: pointer;
+}
+.summary_choose .choose_service_1 .dd .service .service_head img{
+ width: 16px;
+ height: 16px;
+ margin-right: 4px;
+ display: inline-block;
+ vertical-align: middle;
+}
+.summary_choose .choose_service_1 .dd .service .service_head .name{
+ margin-right: 4px;
+ display: inline-block;
+ vertical-align: middle;
+ height: 20px;
+ overflow: hidden;
+}
+.summary_choose .choose_service_1 .dd .service .service_head .price{
+ display: inline-block;
+ vertical-align: middle;
+ font:12px/150% Arial,Verdana,"宋体";
+}
+.summary_choose .choose_service_1 .dd .service .service_head .arrow_icon{
+ display: inline-block;
+ width: 15px;
+ height: 10px;
+ vertical-align: middle;
+ background: url(../apple12_img/tubiao5.png) -2px -1px no-repeat;
+}
+.summary_choose .choose_service_1 .dd .service :hover .arrow_icon{
+ transform: rotate(180deg);
+}
+.summary_choose .choose_service_1 .dd .service .service_body{
+   position: absolute;
+   top: 29px;
+   background-color: #fff;
+   border:1px solid #ddd;
+   padding: 10px 0 5px 10px;
+   width: 240px;
+   overflow: hidden;
+   display: none;
+   z-index: 99;
+}
+.summary_choose .choose_service_1 .dd .service .service_body .choose_btn{
+ margin-bottom: 10px;
+}
+.summary_choose .choose_service_1 .dd .service .service_body .choose_btn .sprite_checkbox{
+ display: inline-block;
+ width: 14px;
+ height: 14px;
+ margin-right: 6px;
+ border: 1px solid #ccc;
+ color: rgb(105, 221, 37);
+ font-weight: bolder;
+ vertical-align: -3px;
+}
+.summary_choose .choose_service_1 .dd .service .service_body .choose_btn .name{
+ margin-right: 4px;
+ vertical-align: middle;
+ height: 20px;
+ overflow: hidden;
+ display: inline-block;
+}
+.summary_choose .choose_service_1 .dd .service .service_body .choose_btn .price{
+ margin-right: 5px;
+ vertical-align: middle;
+ font:12px/150% Arial,Verdana,"宋体";
+}
+.summary_choose .choose_service_1 .dd .service .service_body .detail_more{
+ color: #5e69ad;
+ margin-left: 2px;
+ opacity: 0;
+}
+.summary_choose .choose_service_1 .dd .service .service_body:hover .detail_more{
+ opacity: 1;
+}
+.summary_choose .choose_service_1 .dd .service .service_body:hover{
+ color: #df3033;
+}
+.summary_choose .choose_service_1 .dd .service:hover .service_body{
+ display: block;
+}
+
+.summary_choose .choose_service_1 .dd .service_tips{
+ position: relative;
+ float: left;
+ padding: 5px 0;
+}
+.summary_choose .choose_service_1 .dd .service_tips .sprite_question{
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ vertical-align: -10px;
+ background: url(../apple12_img/tubiao6.png) 0 0 no-repeat;
+}
+.summary_choose .choose_service_1 .dd .service_tips .tips{
+ position: absolute;
+ top: 35px;
+ left: -215px;
+ display: none;
+ z-index: 99;
+}
+.summary_choose .choose_service_1 .dd .service_tips .tips .sprite_arrow{
+display: inline-block;
+   width: 11px;
+   height: 6px;
+   background: url(../apple12_img/tubiao6.png) -14px -16px no-repeat;
+   position: absolute;
+   left:218px;
+   top: -5px;
+} 
+.summary_choose .choose_service_1 .dd .service_tips .tips .content{
+padding: 10px;
+width: 248px;
+background-color: #fff;
+border: 1px solid #cecbce;
+box-shadow: 0 0 2px 2px #eee;
+}
+.summary_choose .choose_service_1 .dd .service_tips .tips .content dd{
+line-height: 170%;
+}
+.summary_choose .choose_service_1 .dd .service_tips:hover .tips{
+display: block;
+}
+.summary_choose .choose_baitiao{
+ margin-bottom: 3px;
+ line-height: 32px;
+}
+.summary_choose .choose_baitiao .dt{
+  float: left;
+  padding-left: 10px;
+  color: #999;
+  position: relative;
+}
+.summary_choose .choose_baitiao .dd{
+  float: left;
+  margin-left: 12px;
+}
+.summary_choose .choose_baitiao .dd .item{
+  float: left;
+  margin: 0 7px 4px 0;
+  position: relative;
+}
+.summary_choose .choose_baitiao .dd .item .choose_head{
+  border: 1px solid #ccc;
+  padding: 0 13px;
+  white-space: nowrap;
+}
+.summary_choose .choose_baitiao .dd .item .choose_head:hover{
+  border:1px solid #df3033;
+}
+.summary_choose .choose_baitiao .dd .item .choose_body{
+  position: absolute;
+  top: 32px;
+  left: 0;
+  width: 250px;
+  padding: 5px 10px;
+  background-color: #fefff7;
+  border: 1px solid #ccc;
+  z-index: 99;
+  padding-bottom: 3px;
+  line-height: 18px;
+  display: none;
+}
+.summary_choose .choose_baitiao .dd .item:hover .choose_body{
+ display: block;
+}
+.summary_choose .choose_baitiao .dd .bt_info_tips{
+ float: left;
+ height: 39px;
+ position: relative;
+}
+.summary_choose .choose_baitiao .dd .bt_info_tips .hui{
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ overflow: hidden;
+ margin: 8px 5px 0 0;
+ background: url(../apple12_img/hui.png) 0 0 no-repeat;
+}
+.summary_choose .choose_baitiao .dd .bt_info_tips .lijian{
+ width:200px;
+ height: 32px;
+ position: absolute;
+ background-color: #fff;
+ z-index: 99;
+ top: 30px;
+ left:0px;
+ border: 1px solid #ccc;
+ padding-left: 20px;
+ display: none;
+}
+.summary_choose .choose_baitiao .dd .bt_info_tips .lijian .sprite_arrow{
+ display: inline-block;
+ width: 11px;
+ height: 6px;
+ background: url(../apple12_img/tubiao6.png) -14px -16px no-repeat;
+ position: absolute;
+ left:2px;
+ top: -6px;
+}
+.summary_choose .choose_baitiao .dd .bt_info_tips:hover .lijian{
+ display: block;
+}
+.summary_choose .choose_baitiao .dd .service_tips{
+ position: absolute;
+ top: -10px;
+ right:0px;
+ position: relative;
+ float: left;
+ padding: 5px 0;
+}
+.summary_choose .choose_baitiao .dd .service_tips .sprite_question{
+ display: inline-block;
+ width: 16px;
+ height: 16px;
+ vertical-align: -10px;
+ background: url(../apple12_img/tubiao6.png) 0 0 no-repeat;
+}
+.summary_choose .choose_baitiao .dd .service_tips .tips{
+ position: absolute;
+ top: 40px;
+ left:0px;
+ display: none;
+ z-index: 99;
+}
+.summary_choose .choose_baitiao .dd .service_tips .tips .sprite_arrow{
+display: inline-block;
+   width: 11px;
+   height: 6px;
+   background: url(../apple12_img/tubiao6.png) -14px -16px no-repeat;
+   position: absolute;
+   left:4px;
+   top: -5px;
+} 
+.summary_choose .choose_baitiao .dd .service_tips .tips .content{
+padding: 10px;
+width: 248px;
+background-color: #fff;
+border: 1px solid #cecbce;
+box-shadow: 0 0 2px 2px #eee;
+}
+.summary_choose .choose_baitiao .dd .service_tips .tips .content dd{
+line-height: 170%;
+}
+.summary_choose .choose_baitiao .dd .service_tips:hover .tips{
+display: block;
+}
+.summary_choose .choose_btns{
+ margin-bottom: 20px;
+ padding: 25px 10px 10px;
+ border-top: 1px dotted #dfdfdf;
+ width: 715px;
+}
+.summary_choose .choose_btns .choose_amount{
+  width: 58px;
+  height: 44px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  float: left;
+  position: relative;
+  margin-right: 10px;
+  border-right:none;
+}
+.summary_choose .choose_btns .choose_amount .buy_num{
+   display: inline-block;
+   width: 43px;
+   height: 42px;
+   line-height: 42px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   text-align: center;
+   border: 0;
+   outline: none;
+}
+.summary_choose .choose_btns .choose_amount .btn_reduce,.btn_add{
+  color: #ccc;
+  bottom: -1px;
+  display: inline-block;
+  width: 15px;
+  text-align: center;
+  height: 22px;
+  line-height: 22px;
+  overflow: hidden;
+  background: #f1f1f1;
+  position: absolute;
+  right: -1px;
+  border: 1px solid #ccc;
+}
+.summary_choose .choose_btns .choose_amount .btn_add{
+  top: -1px;
+}
+.summary_choose .choose_btns .choose_amount .btn_reduce{
+  bottom: -1px;
+  cursor: not-allowed;
+}
+.summary_choose .choose_btns .btn_special{
+  display: inline-block;
+  margin-right: 10px;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 26px;
+  font-size: 18px;
+  font-family:"microsoft yahei";
+  font-weight: 700;
+  background-color: #df3033;
+  color: #fff;
+  cursor: pointer;
+}
+.summary_choose .summary_tips{
+  margin-bottom: 5px;
+}
+.summary_choose .summary_tips .dt{
+  float: left;
+  padding-left: 10px;
+  color: #999;
+}
+.summary_choose .summary_tips .dd{
+   float: left;
+   margin-left: 12px;
+}
+.summary_choose .summary_tips .dd ul li{
+    float: left;
+    margin-right: 15px;
+    color: #999;
+}

@@ -1,0 +1,31 @@
+.clearfix::after{
+ content: "";
+ display: table;
+ clear: both;
+}
+body{
+ font:12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+ color: #666;
+ background-color: #fff;
+}
+.w{
+ min-width:1210px;
+ margin: 0 auto;
+}
+em,i{
+ font-style: normal;
+}
+b,strong{
+ font-weight: normal;
+}
+a{
+ text-decoration: none;
+ color: #666;
+}
+li{
+ list-style: none;
+}
+*{
+ margin: 0;
+ padding: 0;
+}
